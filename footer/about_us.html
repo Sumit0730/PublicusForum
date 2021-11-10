@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .s1{
+            text-transform: uppercase;
+            width: 100%;
+            height: 400px;
+            background: url('8.jpg');
+            background-repeat:no-repeat;
+            background-size: 100% 100% ;
+            
+            text-align: center;
+            
+        }
+        .s1 h1{
+            padding-top: 130px;
+            color:white;
+            font-size: 60px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .s1 h2{
+            
+            color:white;
+            font-size: 60px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .content{
+            width: 100%;
+            height: 800px;
+            display: inline-flex;
+        }
+        .main h2{
+            text-align: center;
+            padding-top: 15px;
+            font-size: 30px;
+        }
+        .main p{
+            padding: 30px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 40px;
+        }
+        .main{
+            width: 48%;
+            float: left;
+        }
+        .mainaside{
+            width: 48%;
+            float: right;
+
+        }
+        .mainaside img{
+            padding-top: 150px;
+            padding-left: 200px;
+            width: 600px;
+            height: 500px;
+        }
+        .quotes{
+            border-radius: 15px;
+            margin-left: 80px;
+            width: 600px;
+            height: 120px;
+            background: silver;
+
+        }
+        .quotes p{
+            
+            line-height: 70px;
+            font-size: 22px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .card{
+            
+            width: 100%;
+            height: 600px;
+            background: lightgray;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card h2{
+            text-align: center;
+            font-size: 35px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .card img{
+            width: 150px;
+            height: 150px;
+            border-radius: 49%;
+        }
+        .cardimg{
+            display: inline-flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+        .cardimg h3{
+            padding: 30px;
+            font-size: 25px;
+        }
+        .cardimg i{
+            padding-right: 10px;
+            font-size: 20px;
+        }
+        .c1{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 320px;
+            height: 350px;
+            background: white;
+            border:2px solid darkkhaki ;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .c2{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 320px;
+            height: 350px;
+            background: white;
+            border:2px solid darkkhaki ;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .c3{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 320px;
+            height: 350px;
+            background: white;
+            border:2px solid darkkhaki ;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .c4{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 320px;
+            height: 350px;
+            background: white;
+            border:2px solid darkkhaki ;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .cardimg a:hover{
+            color: mediumturquoise;
+        }
+        .c1:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.788), 0 8px 22px 0 rgba(0, 0, 0, 0.774);
+            
+        }
+        .c2:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.788), 0 8px 22px 0 rgba(0, 0, 0, 0.774);
+        }
+        .c3:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.788), 0 8px 22px 0 rgba(0, 0, 0, 0.774);
+        }
+        .c4:hover:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.788), 0 8px 22px 0 rgba(0, 0, 0, 0.774);
+        }
+        .quotes:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.788), 0 8px 22px 0 rgba(0, 0, 0, 0.774);
+
+        }
+       
+     
+        
+    </style>
+</head>
+<body>
+    <div class="about">
+        <div class="s1">
+            <h1>meet the faces behind </h1>
+            <h2>Publicus Forum</h2>
+        </div>
+        <div class="content">
+            <div class="main">
+                <h2>Welcome to the most cherished</h2>
+                <h2>page of this blog!</h2>
+                <p>The one and only purpose of Publicus Forum is to equip you with the legal knowledge that will come handy in your day-to-day life.
+
+                    We have created a big network of skilled legal professionals to spread awareness, help you apply law practically, protect your business and personal interests. If you look closely you will realize that there is so much content out there on the internet but is it good quality?
+                    
+                    We strive to write and explain the law in such a simplified manner that anyone can benefit from the information. We believe that you do not have to be a lawyer to understand your own rights!
+                    
+                    And if you’re a Lawyer or Law student, we know how hard it really is. From people misunderstanding your profession to not finding the right resources for cases and spending all your money on useless courses and diplomas, it is an exhausting process. 
+                    
+                    That is why we write blog posts that are valuable to you and help you look at law from a different point of view.</p>
+                <div class="quotes">
+                        <p>Law without justice is a wound without a cure.....</p>
+                </div>
+            </div>
+            <div class="mainaside"> 
+                <img src="8.jpg" alt="image">
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Meet the Faces</h2>
+            <div class="cardimg">
+                <div class="c1">
+                    <img src="anik.jpeg" >
+                    <h3>Anik Gupta</h3>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+                <div class="c2">
+                    <img src="priyansh.jpeg" >
+                    <h3>Priyansh Mani Tripathi</h3>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <hr>
+                </div>
+                <div class="c3">
+                    <img src="sumit.jpeg" >
+                    <h3>Sumit Mishra</h3>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="c4">
+                    <img src="samyak.jpeg" >
+                    <h3>Samyak Rastogi</h3>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <footer>
+            <section class="top">
+                <div class="sec1">
+                    <h2>Publicus forum</h2>
+                    <p>
+                        Disclaimer: This website is informational in nature and is not a substitute for professional legal consultation. Publicus Forum takes no liability for any loss caused to you by the use of
+                         this website or the information provided on this website. Kindly, read the Terms and Conditions and Privacy Policy of the website.
+                    </p>
+                </div>
+                <div class="sec2">
+                    <h2>Newsletter</h2>
+                    <p>
+                    Want to know your way around law without a lawyer?
+                    </p>
+                    <p>
+                        Subscribe to our Lawbriefcase to know the secrets no other lawyer would ever tell you.
+                    </p>
+    
+                    <h3>Email</h3>
+                    <input type="text" placeholder="Your Email goes here" name="mail" required>
+                    <p> </p>
+                    <label>
+                        <input type="checkbox"  name="subscribe" >  By continuing, you accept the privacy policy
+                      </label>
+                   <div class="btn">
+                       <input type="button" value="Subscribe To Our Newsletter">
+                    </div>
+                </div>
+                <div class="sec3">
+                    <h2>instagram feed</h2>
+                    <a href="#"><img src="./2.jpg" alt=""></a>
+                    <a href="#"><img src="./3.jpg" alt=""></a>
+                    <a href="#"><img src="./4.jpg" alt=""></a>
+                    <a href="#"><img src="./5.jpg" alt=""></a>
+                    <a href="#"><img src="./6.jpg" alt=""></a>
+                    <a href="#"><img src="./1.jpg" alt=""></a>
+                    <input type="button" value="Load More">
+                    <input type="button" value="Follow On Instagram">
+                </div>
+            </section>
+            <hr width="100%" />
+            <section class="bottom">
+                <div class="p1">
+                    <p>© 2021 Publicus Forum All Rights Reserved.</p>
+                </div>
+                <div class="p2">
+                    <a href="#"> Terms & Conditions </a>
+                    <a href="#"> Privacy Policy </a>
+                </div>
+                <div class="p3">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook fa-lg" ></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
